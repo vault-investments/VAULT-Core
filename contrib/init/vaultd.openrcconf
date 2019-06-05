@@ -1,0 +1,26 @@
+# /etc/conf.d/vaultd: config file for /etc/init.d/vaultd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/vault/vault.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/vaultd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/vaultd.pid"
+
+# Where to write vaultd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/vaultd"
+
+# User and group to own vaultd process
+#BITCOIND_USER="vault"
+#BITCOIND_GROUP="vault"
+
+# Path to vaultd executable
+#BITCOIND_BIN="/usr/bin/vaultd"
+
+# Nice value to run vaultd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VAULT
+Comment=VAULT P2P Cryptocurrency
+Comment[fr]=VAULT, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=VAULT, eşten eşe kriptografik sanal para birimi
+Exec=vault-qt %u
+Terminal=false
+Type=Application
+Icon=vault128
+MimeType=x-scheme-handler/vault;
+Categories=Office;Finance;

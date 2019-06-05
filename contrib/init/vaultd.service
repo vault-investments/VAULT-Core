@@ -1,0 +1,26 @@
+[Unit]
+Description=VAULT's distributed currency daemon
+After=network.target
+
+[Service]
+User=vault
+Group=vault
+
+Type=forking
+PIDFile=/var/lib/vaultd/vaultd.pid
+
+ExecStart=/usr/bin/vaultd -daemon -pid=/var/lib/vaultd/vaultd.pid \
+          -conf=/etc/vault/vault.conf -datadir=/var/lib/vaultd
+
+ExecStop=-/usr/bin/vault-cli -conf=/etc/vault/vault.conf \
+         -datadir=/var/lib/vaultd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

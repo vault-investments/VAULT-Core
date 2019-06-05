@@ -1,2 +1,5 @@
-# VAULT-Core
-This repository contains VAULT Core wallets and related documentation
+[![VAULT-Splash](https://raw.githubusercontent.com/vault-investments/VAULT-GFX/master/bitcointalk/VAULT_BCT_ANN_Graphic_01.png)](https://www.vault.investments/)
+[![VAULT-Whitepaper](https://raw.githubusercontent.com/vault-investments/VAULT-GFX/master/bitcointalk/VAULT_BCT_ANN_Graphic_02.png)](https://github.com/vault-investments/VAULT-Whitepaper)
+[![VAULT-Platform-Guide](https://raw.githubusercontent.com/vault-investments/VAULT-GFX/master/bitcointalk/VAULT_BCT_ANN_Graphic_03.png)](https://github.com/vault-investments/VAULT-Platform-Guide)
+[![VAULT-Coin](https://raw.githubusercontent.com/vault-investments/VAULT-GFX/master/bitcointalk/VAULT_BCT_ANN_Graphic_04.png)](https://discord.gg/5BYeHtv)
+[![VAULT-Platform-Guide](https://raw.githubusercontent.com/vault-investments/VAULT-GFX/master/bitcointalk/VAULT_BCT_ANN_Graphic_05.png)](https://discord.gg/5BYeHtv)
