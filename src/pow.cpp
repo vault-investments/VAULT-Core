@@ -16,7 +16,7 @@
 
 #include <math.h>
 
-unsigned int static DarkGravityWave(const CBlockIndex* pindexLast) 
+unsigned int static DarkGravityWave(const CBlockIndex* pindexLast)
 {
     /* current difficulty formula, vault - DarkGravity v3, written by Evan Duffield - evan@dashpay.io */
     const CBlockIndex* BlockLastSolved = pindexLast;
@@ -36,6 +36,8 @@ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast)
     if (pindexLast->nHeight > Params().LAST_POW_BLOCK()) {
         uint256 bnTargetLimit = (~uint256(0) >> 24);
         int64_t nTargetSpacing = 60;
+        if (pindexLast->nHeight > Params().BT_CHANGE_BLOCK())
+            nTargetSpacing = 2 * 60;
         int64_t nTargetTimespan = 60 * 40;
 
         int64_t nActualSpacing = 0;
@@ -105,9 +107,9 @@ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast)
         bnNew = Params().ProofOfWorkLimit();
     }
 
-    return bnNew.GetCompact();	
+    return bnNew.GetCompact();
 }
-	
+
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader* pblock)
 {
 	return DarkGravityWave(pindexLast);

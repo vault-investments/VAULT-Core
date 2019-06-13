@@ -224,7 +224,7 @@ ARFLAGS = cru
 AM_V_AR = $(am__v_AR_$(V))
 am__v_AR_ = $(am__v_AR_$(AM_DEFAULT_VERBOSITY))
 am__v_AR_0 = @echo "  AR      " $@;
-am__v_AR_1 = 
+am__v_AR_1 =
 crypto_libbitcoin_crypto_a_AR = $(AR) $(ARFLAGS)
 crypto_libbitcoin_crypto_a_LIBADD =
 am__dirstamp = $(am__leading_dot)dirstamp
@@ -747,7 +747,7 @@ libbitcoinconsensus_la_OBJECTS = $(am_libbitcoinconsensus_la_OBJECTS)
 AM_V_lt = $(am__v_lt_$(V))
 am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))
 am__v_lt_0 = --silent
-am__v_lt_1 = 
+am__v_lt_1 =
 libbitcoinconsensus_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(AM_CXXFLAGS) $(CXXFLAGS) $(libbitcoinconsensus_la_LDFLAGS) \
@@ -981,11 +981,11 @@ am__v_P_1 = :
 AM_V_GEN = $(am__v_GEN_$(V))
 am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))
 am__v_GEN_0 = @echo "  GEN     " $@;
-am__v_GEN_1 = 
+am__v_GEN_1 =
 AM_V_at = $(am__v_at_$(V))
 am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))
 am__v_at_0 = @
-am__v_at_1 = 
+am__v_at_1 =
 DEFAULT_INCLUDES = -I. -I$(top_builddir)/src/config
 depcomp = $(SHELL) $(top_srcdir)/build-aux/depcomp
 am__depfiles_maybe = depfiles
@@ -999,7 +999,7 @@ LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 AM_V_CC = $(am__v_CC_$(V))
 am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))
 am__v_CC_0 = @echo "  CC      " $@;
-am__v_CC_1 = 
+am__v_CC_1 =
 CCLD = $(CC)
 LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
@@ -1007,7 +1007,7 @@ LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 AM_V_CCLD = $(am__v_CCLD_$(V))
 am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CCLD_0 = @echo "  CCLD    " $@;
-am__v_CCLD_1 = 
+am__v_CCLD_1 =
 CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \
 	$(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
 LTCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
@@ -1017,7 +1017,7 @@ LTCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 AM_V_CXX = $(am__v_CXX_$(V))
 am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))
 am__v_CXX_0 = @echo "  CXX     " $@;
-am__v_CXX_1 = 
+am__v_CXX_1 =
 CXXLD = $(CXX)
 CXXLINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
@@ -1025,7 +1025,7 @@ CXXLINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 AM_V_CXXLD = $(am__v_CXXLD_$(V))
 am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CXXLD_0 = @echo "  CXXLD   " $@;
-am__v_CXXLD_1 = 
+am__v_CXXLD_1 =
 OBJCXXCOMPILE = $(OBJCXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \
 	$(AM_CPPFLAGS) $(CPPFLAGS) $(AM_OBJCXXFLAGS) $(OBJCXXFLAGS)
 LTOBJCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) $(AM_LIBTOOLFLAGS) \
@@ -1035,7 +1035,7 @@ LTOBJCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) $(AM_LIBTOOLFLAGS) \
 AM_V_OBJCXX = $(am__v_OBJCXX_$(V))
 am__v_OBJCXX_ = $(am__v_OBJCXX_$(AM_DEFAULT_VERBOSITY))
 am__v_OBJCXX_0 = @echo "  OBJCXX  " $@;
-am__v_OBJCXX_1 = 
+am__v_OBJCXX_1 =
 OBJCXXLD = $(OBJCXX)
 OBJCXXLINK = $(LIBTOOL) $(AM_V_lt) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \
 	--mode=link $(OBJCXXLD) $(AM_OBJCXXFLAGS) $(OBJCXXFLAGS) \
@@ -1043,7 +1043,7 @@ OBJCXXLINK = $(LIBTOOL) $(AM_V_lt) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \
 AM_V_OBJCXXLD = $(am__v_OBJCXXLD_$(V))
 am__v_OBJCXXLD_ = $(am__v_OBJCXXLD_$(AM_DEFAULT_VERBOSITY))
 am__v_OBJCXXLD_0 = @echo "  OBJCXXLD" $@;
-am__v_OBJCXXLD_1 = 
+am__v_OBJCXXLD_1 =
 SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) \
 	$(libbitcoin_cli_a_SOURCES) $(libbitcoin_common_a_SOURCES) \
 	$(libbitcoin_server_a_SOURCES) $(libbitcoin_util_a_SOURCES) \
@@ -1332,7 +1332,7 @@ AUTOCONF = ${SHELL} /root/vault-core/build-aux/missing autoconf
 AUTOHEADER = ${SHELL} /root/vault-core/build-aux/missing autoheader
 AUTOMAKE = ${SHELL} /root/vault-core/build-aux/missing automake-1.15
 AWK = gawk
-BDB_CPPFLAGS = 
+BDB_CPPFLAGS =
 BDB_LIBS = -ldb_cxx-4.8
 BITCOIN_CLI_NAME = vault-cli
 BITCOIN_DAEMON_NAME = vaultd
@@ -1347,25 +1347,25 @@ BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options
 BOOST_SYSTEM_LIB = -lboost_system
 BOOST_THREAD_LIB = -lboost_thread
 BOOST_UNIT_TEST_FRAMEWORK_LIB = -lboost_unit_test_framework
-BREW = 
+BREW =
 BUILD_QT = qt
 BUILD_TEST = test
 BUILD_TEST_QT = test
 CC = gcc
-CCACHE = 
+CCACHE =
 CCDEPMODE = depmode=gcc3
-CFLAGS = 
+CFLAGS =
 CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
 CLIENT_VERSION_MINOR = 0
-CLIENT_VERSION_REVISION = 0
+CLIENT_VERSION_REVISION = 1
 COMPARISON_TOOL_REORG_TESTS = 0
-COPYRIGHT_YEAR = 2018
+COPYRIGHT_YEAR = 2019
 CPP = gcc -E
 CPPFILT = /usr/bin/c++filt
 CPPFLAGS =  -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -DHAVE_QT5
-CRYPTO_CFLAGS = 
+CRYPTO_CFLAGS =
 CRYPTO_LIBS = -lcrypto
 CXX = g++ -std=c++11
 CXXCPP = g++ -std=c++11 -E
@@ -1375,135 +1375,135 @@ CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
 DLLTOOL = false
-DSYMUTIL = 
-DUMPBIN = 
-ECHO_C = 
+DSYMUTIL =
+DUMPBIN =
+ECHO_C =
 ECHO_N = -n
-ECHO_T = 
+ECHO_T =
 EGREP = /bin/grep -E
-EVENT_CFLAGS = 
+EVENT_CFLAGS =
 EVENT_LIBS = -levent
 EVENT_PTHREADS_CFLAGS = -pthread
 EVENT_PTHREADS_LIBS = -levent_pthreads -levent
-EXEEXT = 
+EXEEXT =
 FGREP = /bin/grep -F
 GCOV = /usr/bin/gcov
-GENHTML = 
-GENISOIMAGE = 
+GENHTML =
+GENISOIMAGE =
 GIT = /usr/bin/git
 GREP = /bin/grep
 HAVE_CXX11 = 1
 HEXDUMP = /usr/bin/hexdump
-IMAGEMAGICK_CONVERT = 
+IMAGEMAGICK_CONVERT =
 INSTALL = /usr/bin/install -c
-INSTALLNAMETOOL = 
+INSTALLNAMETOOL =
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 JAVA = /usr/bin/java
-JAVA_COMPARISON_TOOL = 
-LCOV = 
+JAVA_COMPARISON_TOOL =
+LCOV =
 LD = /usr/bin/ld -m elf_x86_64
 LDFLAGS =   -Wl,-z,relro -Wl,-z,now
 LEVELDB_CPPFLAGS =  $(am__append_1)
-LEVELDB_TARGET_FLAGS = 
+LEVELDB_TARGET_FLAGS =
 LIBLEVELDB =  $(am__append_2)
 LIBMEMENV =  $(am__append_3)
-LIBOBJS = 
-LIBS = -lanl 
+LIBOBJS =
+LIBS = -lanl
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIBTOOL_APP_LDFLAGS = 
-LIPO = 
+LIBTOOL_APP_LDFLAGS =
+LIPO =
 LN_S = ln -s
 LRELEASE = /usr/lib/x86_64-linux-gnu/qt5/bin/lrelease
-LTLIBOBJS = 
-LT_SYS_LIBRARY_PATH = 
+LTLIBOBJS =
+LT_SYS_LIBRARY_PATH =
 LUPDATE = /usr/lib/x86_64-linux-gnu/qt5/bin/lupdate
-MAINT = 
+MAINT =
 MAKEINFO = ${SHELL} /root/vault-core/build-aux/missing makeinfo
-MAKENSIS = 
+MAKENSIS =
 MANIFEST_TOOL = :
-MINIUPNPC_CPPFLAGS = 
+MINIUPNPC_CPPFLAGS =
 MINIUPNPC_LIBS = -lminiupnpc
 MKDIR_P = /bin/mkdir -p
 MOC = /usr/lib/x86_64-linux-gnu/qt5/bin/moc
 MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
 NM = /usr/bin/nm -B
-NMEDIT = 
+NMEDIT =
 OBJCOPY = /usr/bin/objcopy
 OBJCXX = g++ -std=c++11
 OBJCXXDEPMODE = depmode=gcc3
 OBJCXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIC
 OBJDUMP = objdump
 OBJEXT = o
-OTOOL = 
-OTOOL64 = 
+OTOOL =
+OTOOL64 =
 PACKAGE = vault
 PACKAGE_BUGREPORT = www.vault.investments
 PACKAGE_NAME = VAULT Core
-PACKAGE_STRING = VAULT Core 1.0.0
+PACKAGE_STRING = VAULT Core 1.0.1
 PACKAGE_TARNAME = vault
-PACKAGE_URL = 
-PACKAGE_VERSION = 1.0.0
+PACKAGE_URL =
+PACKAGE_VERSION = 1.0.1
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config
-PKG_CONFIG_LIBDIR = 
-PKG_CONFIG_PATH = 
-PORT = 
+PKG_CONFIG_LIBDIR =
+PKG_CONFIG_PATH =
+PORT =
 PROTOBUF_CFLAGS = -pthread
 PROTOBUF_LIBS = -lprotobuf -pthread -lpthread
 PROTOC = /usr/bin/protoc
 PTHREAD_CC = gcc
 PTHREAD_CFLAGS = -pthread
-PTHREAD_LIBS = 
+PTHREAD_LIBS =
 PYTHON = /usr/bin/python3
-PYTHONPATH = 
-QR_CFLAGS = 
+PYTHONPATH =
+QR_CFLAGS =
 QR_LIBS = -lqrencode
-QTPLATFORM_CFLAGS = 
-QTPLATFORM_LIBS = 
-QTPRINT_CFLAGS = 
-QTPRINT_LIBS = 
-QTXCBQPA_CFLAGS = 
-QTXCBQPA_LIBS = 
+QTPLATFORM_CFLAGS =
+QTPLATFORM_LIBS =
+QTPRINT_CFLAGS =
+QTPRINT_LIBS =
+QTXCBQPA_CFLAGS =
+QTXCBQPA_LIBS =
 QT_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
 QT_DBUS_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtDBus -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
 QT_DBUS_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtDBus -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
 QT_DBUS_LIBS = -lQt5DBus -lQt5Core
 QT_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
-QT_LDFLAGS = 
+QT_LDFLAGS =
 QT_LIBS = -lQt5Network -lQt5Widgets -lQt5Gui -lQt5Core
-QT_PIE_FLAGS = 
+QT_PIE_FLAGS =
 QT_SELECT = qt5
 QT_TEST_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
 QT_TEST_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
 QT_TEST_LIBS = -lQt5Test -lQt5Core
-QT_TRANSLATION_DIR = 
+QT_TRANSLATION_DIR =
 RANLIB = /usr/bin/ranlib
 RCC = /usr/lib/x86_64-linux-gnu/qt5/bin/rcc
 READELF = /usr/bin/readelf
 RELDFLAGS = -Wl,--exclude-libs,ALL
-RSVG_CONVERT = 
+RSVG_CONVERT =
 SED = /bin/sed
-SET_MAKE = 
+SET_MAKE =
 SHELL = /bin/bash
-SSL_CFLAGS = 
+SSL_CFLAGS =
 SSL_LIBS = -lssl
 STRIP = /usr/bin/strip
 TESTDEFS =  -DBOOST_TEST_DYN_LINK
-TIFFCP = 
+TIFFCP =
 UIC = /usr/lib/x86_64-linux-gnu/qt5/bin/uic
-USE_QRCODE = 
-USE_UPNP = 
-VERSION = 1.0.0
-WINDOWS_BITS = 
-WINDRES = 
-X11XCB_CFLAGS = 
-X11XCB_LIBS = 
+USE_QRCODE =
+USE_UPNP =
+VERSION = 1.0.1
+WINDOWS_BITS =
+WINDRES =
+X11XCB_CFLAGS =
+X11XCB_LIBS =
 XGETTEXT = /usr/bin/xgettext
-ZMQ_CFLAGS = 
-ZMQ_LIBS = 
+ZMQ_CFLAGS =
+ZMQ_LIBS =
 abs_builddir = /root/vault-core/src
 abs_srcdir = /root/vault-core/src
 abs_top_builddir = /root/vault-core
@@ -1511,17 +1511,17 @@ abs_top_srcdir = /root/vault-core
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
-ac_ct_DUMPBIN = 
-ac_ct_OBJCXX = 
+ac_ct_DUMPBIN =
+ac_ct_OBJCXX =
 am__include = include
 am__leading_dot = .
-am__quote = 
+am__quote =
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
-ax_pthread_config = 
+ax_pthread_config =
 bindir = ${exec_prefix}/bin
 build = x86_64-pc-linux-gnu
-build_alias = 
+build_alias =
 build_cpu = x86_64
 build_os = linux-gnu
 build_vendor = pc
@@ -1532,7 +1532,7 @@ docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
 host = x86_64-pc-linux-gnu
-host_alias = 
+host_alias =
 host_cpu = x86_64
 host_os = linux-gnu
 host_vendor = pc
@@ -1557,7 +1557,7 @@ sharedstatedir = ${prefix}/com
 srcdir = .
 subdirs =  src/secp256k1
 sysconfdir = ${prefix}/etc
-target_alias = 
+target_alias =
 top_build_prefix = ../
 top_builddir = ..
 top_srcdir = ..
@@ -1586,7 +1586,7 @@ EXTRA_LIBRARIES = crypto/libbitcoin_crypto.a libbitcoin_util.a \
 	libbitcoin_cli.a $(am__append_5) $(am__append_6) \
 	$(am__append_24)
 #lib_LTLIBRARIES = libbitcoinconsensus.la
-LIBBITCOIN_CONSENSUS = 
+LIBBITCOIN_CONSENSUS =
 #LIBBITCOIN_CONSENSUS = libbitcoinconsensus.la
 # vault core #
 BITCOIN_CORE_H = \
@@ -2507,7 +2507,7 @@ crypto/libbitcoin_crypto.a: $(crypto_libbitcoin_crypto_a_OBJECTS) $(crypto_libbi
 	$(AM_V_AR)$(crypto_libbitcoin_crypto_a_AR) crypto/libbitcoin_crypto.a $(crypto_libbitcoin_crypto_a_OBJECTS) $(crypto_libbitcoin_crypto_a_LIBADD)
 	$(AM_V_at)$(RANLIB) crypto/libbitcoin_crypto.a
 
-libbitcoin_cli.a: $(libbitcoin_cli_a_OBJECTS) $(libbitcoin_cli_a_DEPENDENCIES) $(EXTRA_libbitcoin_cli_a_DEPENDENCIES) 
+libbitcoin_cli.a: $(libbitcoin_cli_a_OBJECTS) $(libbitcoin_cli_a_DEPENDENCIES) $(EXTRA_libbitcoin_cli_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_cli.a
 	$(AM_V_AR)$(libbitcoin_cli_a_AR) libbitcoin_cli.a $(libbitcoin_cli_a_OBJECTS) $(libbitcoin_cli_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_cli.a
@@ -2543,14 +2543,14 @@ script/libbitcoin_common_a-standard.$(OBJEXT): script/$(am__dirstamp) \
 script/libbitcoin_common_a-script_error.$(OBJEXT):  \
 	script/$(am__dirstamp) script/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_common.a: $(libbitcoin_common_a_OBJECTS) $(libbitcoin_common_a_DEPENDENCIES) $(EXTRA_libbitcoin_common_a_DEPENDENCIES) 
+libbitcoin_common.a: $(libbitcoin_common_a_OBJECTS) $(libbitcoin_common_a_DEPENDENCIES) $(EXTRA_libbitcoin_common_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_common.a
 	$(AM_V_AR)$(libbitcoin_common_a_AR) libbitcoin_common.a $(libbitcoin_common_a_OBJECTS) $(libbitcoin_common_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_common.a
 script/libbitcoin_server_a-sigcache.$(OBJEXT): script/$(am__dirstamp) \
 	script/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_server.a: $(libbitcoin_server_a_OBJECTS) $(libbitcoin_server_a_DEPENDENCIES) $(EXTRA_libbitcoin_server_a_DEPENDENCIES) 
+libbitcoin_server.a: $(libbitcoin_server_a_OBJECTS) $(libbitcoin_server_a_DEPENDENCIES) $(EXTRA_libbitcoin_server_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_server.a
 	$(AM_V_AR)$(libbitcoin_server_a_AR) libbitcoin_server.a $(libbitcoin_server_a_OBJECTS) $(libbitcoin_server_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_server.a
@@ -2571,7 +2571,7 @@ compat/libbitcoin_util_a-glibc_compat.$(OBJEXT):  \
 compat/libbitcoin_util_a-glibcxx_compat.$(OBJEXT):  \
 	compat/$(am__dirstamp) compat/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_util.a: $(libbitcoin_util_a_OBJECTS) $(libbitcoin_util_a_DEPENDENCIES) $(EXTRA_libbitcoin_util_a_DEPENDENCIES) 
+libbitcoin_util.a: $(libbitcoin_util_a_OBJECTS) $(libbitcoin_util_a_DEPENDENCIES) $(EXTRA_libbitcoin_util_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_util.a
 	$(AM_V_AR)$(libbitcoin_util_a_AR) libbitcoin_util.a $(libbitcoin_util_a_OBJECTS) $(libbitcoin_util_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_util.a
@@ -2579,7 +2579,7 @@ primitives/libbitcoin_wallet_a-zerocoin.$(OBJEXT):  \
 	primitives/$(am__dirstamp) \
 	primitives/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_wallet.a: $(libbitcoin_wallet_a_OBJECTS) $(libbitcoin_wallet_a_DEPENDENCIES) $(EXTRA_libbitcoin_wallet_a_DEPENDENCIES) 
+libbitcoin_wallet.a: $(libbitcoin_wallet_a_OBJECTS) $(libbitcoin_wallet_a_DEPENDENCIES) $(EXTRA_libbitcoin_wallet_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_wallet.a
 	$(AM_V_AR)$(libbitcoin_wallet_a_AR) libbitcoin_wallet.a $(libbitcoin_wallet_a_OBJECTS) $(libbitcoin_wallet_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_wallet.a
@@ -2596,7 +2596,7 @@ zmq/libbitcoin_zmq_a-zmqnotificationinterface.$(OBJEXT):  \
 zmq/libbitcoin_zmq_a-zmqpublishnotifier.$(OBJEXT):  \
 	zmq/$(am__dirstamp) zmq/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoin_zmq.a: $(libbitcoin_zmq_a_OBJECTS) $(libbitcoin_zmq_a_DEPENDENCIES) $(EXTRA_libbitcoin_zmq_a_DEPENDENCIES) 
+libbitcoin_zmq.a: $(libbitcoin_zmq_a_OBJECTS) $(libbitcoin_zmq_a_DEPENDENCIES) $(EXTRA_libbitcoin_zmq_a_DEPENDENCIES)
 	$(AM_V_at)-rm -f libbitcoin_zmq.a
 	$(AM_V_AR)$(libbitcoin_zmq_a_AR) libbitcoin_zmq.a $(libbitcoin_zmq_a_OBJECTS) $(libbitcoin_zmq_a_LIBADD)
 	$(AM_V_at)$(RANLIB) libbitcoin_zmq.a
@@ -2938,7 +2938,7 @@ compat/libbitcoinconsensus_la-glibc_compat.lo: compat/$(am__dirstamp) \
 compat/libbitcoinconsensus_la-glibcxx_compat.lo:  \
 	compat/$(am__dirstamp) compat/$(DEPDIR)/$(am__dirstamp)
 
-libbitcoinconsensus.la: $(libbitcoinconsensus_la_OBJECTS) $(libbitcoinconsensus_la_DEPENDENCIES) $(EXTRA_libbitcoinconsensus_la_DEPENDENCIES) 
+libbitcoinconsensus.la: $(libbitcoinconsensus_la_OBJECTS) $(libbitcoinconsensus_la_DEPENDENCIES) $(EXTRA_libbitcoinconsensus_la_DEPENDENCIES)
 	$(AM_V_CXXLD)$(libbitcoinconsensus_la_LINK) $(am_libbitcoinconsensus_la_rpath) $(libbitcoinconsensus_la_OBJECTS) $(libbitcoinconsensus_la_LIBADD) $(LIBS)
 install-binPROGRAMS: $(bin_PROGRAMS)
 	@$(NORMAL_INSTALL)
@@ -3126,15 +3126,15 @@ test/test_vault$(EXEEXT): $(test_test_vault_OBJECTS) $(test_test_vault_DEPENDENC
 	@rm -f test/test_vault$(EXEEXT)
 	$(AM_V_CXXLD)$(test_test_vault_LINK) $(test_test_vault_OBJECTS) $(test_test_vault_LDADD) $(LIBS)
 
-vault-cli$(EXEEXT): $(vault_cli_OBJECTS) $(vault_cli_DEPENDENCIES) $(EXTRA_vault_cli_DEPENDENCIES) 
+vault-cli$(EXEEXT): $(vault_cli_OBJECTS) $(vault_cli_DEPENDENCIES) $(EXTRA_vault_cli_DEPENDENCIES)
 	@rm -f vault-cli$(EXEEXT)
 	$(AM_V_CXXLD)$(vault_cli_LINK) $(vault_cli_OBJECTS) $(vault_cli_LDADD) $(LIBS)
 
-vault-tx$(EXEEXT): $(vault_tx_OBJECTS) $(vault_tx_DEPENDENCIES) $(EXTRA_vault_tx_DEPENDENCIES) 
+vault-tx$(EXEEXT): $(vault_tx_OBJECTS) $(vault_tx_DEPENDENCIES) $(EXTRA_vault_tx_DEPENDENCIES)
 	@rm -f vault-tx$(EXEEXT)
 	$(AM_V_CXXLD)$(vault_tx_LINK) $(vault_tx_OBJECTS) $(vault_tx_LDADD) $(LIBS)
 
-vaultd$(EXEEXT): $(vaultd_OBJECTS) $(vaultd_DEPENDENCIES) $(EXTRA_vaultd_DEPENDENCIES) 
+vaultd$(EXEEXT): $(vaultd_OBJECTS) $(vaultd_DEPENDENCIES) $(EXTRA_vaultd_DEPENDENCIES)
 	@rm -f vaultd$(EXEEXT)
 	$(AM_V_CXXLD)$(vaultd_LINK) $(vaultd_OBJECTS) $(vaultd_LDADD) $(LIBS)
 
@@ -8040,7 +8040,7 @@ check-TESTS:
 	log_list=`echo $$log_list`; trs_list=`echo $$trs_list`; \
 	$(MAKE) $(AM_MAKEFLAGS) $(TEST_SUITE_LOG) TEST_LOGS="$$log_list"; \
 	exit $$?;
-recheck: all 
+recheck: all
 	@test -z "$(TEST_SUITE_LOG)" || rm -f $(TEST_SUITE_LOG)
 	@set +e; $(am__set_TESTS_bases); \
 	bases=`for i in $$bases; do echo $$i; done \

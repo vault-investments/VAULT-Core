@@ -114,14 +114,15 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 12 * 60 * 60; // VAULT: 12h
-        nTargetSpacing = 2 * 60;  // VAULT: 2 minutes
+        nTargetTimespan = 2 * 60;
+        nTargetSpacing = 2 * 60;
         nMaturity = 60;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
+        nBTChangeBlock = 11000;
         nModifierUpdateBlock = 1;
         nZerocoinStartHeight = 101;
         nAccumulatorStartHeight = 50;
@@ -233,6 +234,7 @@ public:
         nTargetTimespan = 1 * 60; // VAULT: 1 day
         nTargetSpacing = 2 * 60;  // VAULT: 2 minutes
         nLastPOWBlock = 200;
+        nBTChangeBlock = 1000;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
