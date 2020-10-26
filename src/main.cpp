@@ -2304,12 +2304,15 @@ int64_t GetBlockValue(int nHeight)
 	else if (nHeight <= 261000 && nHeight > 260000) {
         nSubsidy = 0.72 * COIN;
     }
-	else if (nHeight > 261000) {
+	else if (nHeight <= 4061523 && nHeight > 261000) {
         nSubsidy = 0.73 * COIN;
     }
-    else {
+	else if (nHeight > 4061524) {
         nSubsidy = 0 * COIN;
     }
+  else {
+      nSubsidy = 0 * COIN;
+  }
     return nSubsidy;
 }
 
@@ -4387,9 +4390,14 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
 
           if (nHeight > DON_BLOCK) {
             // Check the fund payments
+            CAmount blockValue = GetBlockValue(pindexPrev->nHeight);
+            CAmount operationFundPayment = OperationFund(blockValue);
+
             int s = block.vtx[1].vout.size();
             if (block.vtx[1].vout[s - 1].scriptPubKey != OpFundScriptPubKey())
-                return state.DoS(100, error("CheckBlock() : incorrect X fund payment"));
+                return state.DoS(100, error("CheckBlock() : incorrect OpFund payment"));
+            if (block.vtx[1].vout[s - 1].nValue != operationFundPayment)
+                return state.DoS(100, error("CheckBlock() : incorrect OpFund payment"));
           }
 
           // Blocks arrive in order, so if prev block is not the tip then we are on a fork.
